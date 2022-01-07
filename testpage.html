@@ -16,26 +16,60 @@
 			{
 				margin: 0px;
 				padding: 0px;
+				background-color:  #e5e8e8;
 			}
 		
-		#header{
+
+			  
+			.navig
+			{
+				background-color: #76d7c4;
+				padding: 10px;
+				font-family: arial;
+				border-bottom: 5px orange solid;
+			}
+			
+			 
+			 a:link
+			 {
+			 	text-decoration: none;
+			 	font-size: 20px;
+			 }
+			 a:visited
+			 {
+			 	color: #8d1806;
+			 }
+			 a:hover
+			 {
+			 	background-color: #0d69a9; 
+			 }
+			  
+			#header
+			{
 				margin: 0px;
 				border: 1px black solid;
 				padding-left: 20px;
-				background-color: teal;
-				color: white;
-				border-bottom: 5px orange solid;
+				background-color:  #76d7c4;
+				color: black;
+				border-bottom: 5px  #76d7c4  solid;
 			  }
 			   
 		#footer{
 				border-top: 5px white solid;
-				background-color: teal;
-				color: white;
-				padding-bottom: 0px;
+				background-color:  #d7bde2;
+				color: black;
+				padding-bottom: 60px;
 				margin-bottom: -12px;
 				padding-left: 10px;
+				border-top: 5px orange solid;
 			  }
-			  
+		.list{
+			display: flex;
+			justify-content: space-evenly;
+			list-style: none;
+		}
+		
+		
 	</style>
 </head>
 <body>
@@ -43,27 +77,40 @@
 	<div id="header">
 		<h1>Welcome to my web page.</h1>
 	</div>
-	
+	<div class="navig">
+		<ul class="list">
+			<li><a href="#home"> Home </a></li>
+			<li><a href="#image"> Image </a></li>
+			<li><a href="#contact"> Contact </a></li>
+			<li><a href="#about"> About </a></li>
+			<li><a href="#maps"> maps </a></li>
+		</ul>
+		<br><br>
+	</div>
+		
 	<div>
 		<p class="lead-p">This is a test paragraph</p>
 		<ul>
-			<li>Item 1</li>
-			<li>Item 2</li>
-			<li>Item 3</li>
-			<li>Item 4</li>
-			<li>Item 5</li>
+			<li>Item 1</li><br>
+			<li>Item 2</li><br>
+			<li>Item 3</li><br>
+			<li>Item 4</li><br>
+			<li>Item 5</li><br>
 			<li>Item 6</li>
 		</ul>
 		<p class="lead-p">Another paragraph in the content section</p>
 	</div>
+	
 	<div id="footer">
 		<p class="lead-p">Footer section starts here.</p>
 		<ol>
-			<li><a href="#">Link 1</a></li>
-			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 1</a></li><br>
+			<li><a href="#">Link 2</a></li><br>
 			<li><a href="#">Link 3</a></li>
 
 </body>
 </html>
+				
+				
 				
 				
